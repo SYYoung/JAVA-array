@@ -119,4 +119,18 @@ public class VigenereBreaker {
         
         return realDecryptedMsg;
     }
+    
+    public char mostCommonCharIn (HashSet<String> dictionary) {
+        HashMap<Character,Integer> charFreq = new HashMap<Character, Integer>();
+        for (String word : dictionary) {
+            for (int k=0; k<word.length(); k++){
+                if (charFreq.containsKey(word.charAt(k))){
+                    
+                }
+                else {
+                    
+                }
+            }
+        }
+    }
 }
